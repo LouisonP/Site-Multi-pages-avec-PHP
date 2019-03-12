@@ -2,6 +2,7 @@ body{
     background-image: url(../images/maison1.jpg);
     background-size: cover;
 }
+
 .toggle_btn{
     float: right;
     height: 30px;
@@ -11,6 +12,7 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
+
 .toggle_btn span{
     float: right;
     height: 3px;
@@ -38,11 +40,13 @@ body{
     top: 10px;
     left: 0;
 }
+
 .menu{
     height: 100%;
     width: 1000px;
-    background-color: rgba(7, 153, 146,  0.4);
+    background-color: rgba(7, 153, 146, 0.4);
 }
+
 .menu a{
     color: white;
     display: block;
