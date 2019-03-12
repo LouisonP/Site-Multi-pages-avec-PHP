@@ -8,6 +8,10 @@ l'on veut mettre en commentaire et on clique sur ctrl et la touche slash -->
 <!--On écrit ici entre le header et le footer ici dans notre page achat pour créer la page achat, pas besoin de remettre doctype-->
 
 <div class="Achats">
+
+
+
+
 </div>
 
 <?php
