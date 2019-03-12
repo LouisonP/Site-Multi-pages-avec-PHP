@@ -8,3 +8,7 @@ l'on veut mettre en commentaire et on clique sur ctrl et la touche slash -->
 <?php
 include_once('php/footer.php');
 ?>
+
+<?php
+include_once ('ventes.php');
+?>
