@@ -1,6 +1,5 @@
 <?php
 require('php/header.php');//PHP on l'inclu à l'endroit ou il doit se mett
-require('php/footer.php');
 ?>
 <!-- include nav en exemple -->
 <!-- Pour mettre en commentaire PLUS RAPIDEMENT on sélectionne le texte que 
@@ -61,3 +60,7 @@ l'on veut mettre en commentaire et on clique sur ctrl et la touche slash(windows
         </div>
     </div>
 </form>
+
+<?php
+require('php/footer.php');
+?>
