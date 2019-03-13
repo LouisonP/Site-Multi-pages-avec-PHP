@@ -1,6 +1,14 @@
 body{
-    background-image: url(../images/maison1.jpg);
+    background-image: url(../img/maison1.jpg);
     background-size: cover;
+}
+.baniere_nav{
+    height: 155px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .toggle_btn{
@@ -12,7 +20,6 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
-
 .toggle_btn span{
     float: right;
     height: 3px;
@@ -46,26 +53,45 @@ body{
     width: 1000px;
     background-color: rgba(7, 153, 146, 0.4);
 }
-
 .menu a{
     color: white;
     display: block;
+    text-decoration: none;
+    text-transform: uppercase;
     text-align: center;
+    padding: 20px;
 }
+
 .nav ul{
     list-style-type: none;
+    height: 100%;
+    width: 94%;
 }
 .nav ul li{
     font-size: 2em;
-    margin-bottom: 150px;
+    margin-top: 30px;   
 }
+.nav ul li:hover{
+    background-color: rgb(189, 55, 55); 
+
 .nav{
-    margin-left: -1300px;
-    transition-duration: 0.5s;
+    margin-left: -1700px;
+    transition-duration: 1s;
 }
 .nav_open{
-    margin-left: 500px;
-    transition-duration: 2s;
+    // position: absolute;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translateX(-50%);
 }
-// @media (min-width: 640px);
+@media (min-width: 640px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .menu ul li{
+        font-size: 1em;
+    }
+}
+
 
