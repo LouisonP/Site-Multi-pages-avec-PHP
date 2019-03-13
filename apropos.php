@@ -1,4 +1,6 @@
-<body>
+<?php
+include_once('php/header.php');
+?>
 
     <!--Notre équipe de dév pourri-->
     <!--Mettre les photos de nos guiffes dans le dosssier des images-->
@@ -10,8 +12,7 @@
                     <div class="arrow-content"><i class="fas fa-angle-up"></i></div>
                     <div class="textes">
                         <h3>Louison Poiriez</h3>
-                        <h4>Scrum Master</h4>
-                       
+                        <h4>Scrum Master</h4>   
                     </div>
                 </div>
             </div>
@@ -118,6 +119,8 @@
                 </div>
                         
             </div>
-s
-</body>
-</html>
+
+<?php
+include_once('php/footer.php');
+
+?>
