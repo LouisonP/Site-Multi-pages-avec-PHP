@@ -18,7 +18,7 @@ include_once('php/header.php');
             </div>
 
             <div class="content-people">
-                <img src="img/Philippe.jpeg" alt="">
+                <img src="img/Philippe.jpg" alt="">
                 <div class="content-text">
                     <div class="arrow-content"><i class="fas fa-angle-up"></i></div>
                     <div class="textes">
@@ -119,6 +119,8 @@ include_once('php/header.php');
                 </div>
                         
             </div>
+
+            <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Sniglet" rel="stylesheet">
 
 <?php
 include_once('php/footer.php');
