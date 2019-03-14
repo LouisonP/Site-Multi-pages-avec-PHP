@@ -9,7 +9,7 @@ l'on veut mettre en commentaire et on clique sur ctrl et la touche slash(windows
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
                 <div class="small-12 medium-6 cell">
-                <label class='text-center middle'>Type de bien</label>
+                <label class='text-center middle'><strong>Type de bien</strong></label>
                     <select>
                         <option value="appartement">Appartement</option>
                         <option value="maison">Maison</option>
@@ -21,7 +21,7 @@ l'on veut mettre en commentaire et on clique sur ctrl et la touche slash(windows
         <br>
         <div class="grid-x grid-padding-x">
                 <div class="small-12 medium-6 cell">
-                    <label for="middle-label" class="text-center middle">Ville</label>
+                    <label for="middle-label" class="text-center middle"><strong>Ville</strong></label>
                 </div>
                 <div class="small-12 medium-6 cell">
                     <input type="text" id="middle-label" placeholder="Ville">
@@ -31,7 +31,7 @@ l'on veut mettre en commentaire et on clique sur ctrl et la touche slash(windows
         <br>
         <div class="grid-x grid-padding-x">
                 <div class="small-12 medium-6 cell">
-                    <label for="middle-label" class="text-center middle">Adresse</label>
+                    <label for="middle-label" class="text-center middle"><strong>Adresse</strong></label>
                 </div>
                 <div class="small-12 medium-6 cell">
                     <input type="text" id="middle-label" placeholder="Adresse">
@@ -41,7 +41,7 @@ l'on veut mettre en commentaire et on clique sur ctrl et la touche slash(windows
         <br>
         <div class="grid-x grid-padding-x">
                 <div class="small-12 medium-6 cell">
-                    <label for="middle-label" class="text-center middle">Surface en mètres carrés</label>
+                    <label for="middle-label" class="text-center middle"><strong>Surface en mètres carrés</strong></label>
                 </div>
                 <div class="small-12 medium-6 cell">
                     <input type="text" id="middle-label" placeholder="mètre carré">
@@ -51,7 +51,7 @@ l'on veut mettre en commentaire et on clique sur ctrl et la touche slash(windows
         <br>
         <div class="grid-x grid-padding-x">
                 <div class="small-12 medium-6 cell">
-                    <label for="middle-label" class="text-center middle">Prix</label>
+                    <label for="middle-label" class="text-center middle"><strong>Prix</strong></label>
                 </div>
                 <div class="small-12 medium-6 cell">
                     <input type="text" id="middle-label" placeholder="Prix">
