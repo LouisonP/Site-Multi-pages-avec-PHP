@@ -4,10 +4,10 @@ include_once('php/header.php');
 
     <!--Notre équipe de dév pourri-->
     <!--Mettre les photos de nos guiffes dans le dosssier des images-->
-
+    <div class="container">
     <div class="content-global-notreEquipe">
             <div class="content-people">
-                <img src="img/Louison.jpg" alt="">
+                <img src="../img/Louison.jpg" alt="">
                 <div class="content-text">
                     <div class="arrow-content"><i class="fas fa-angle-up"></i></div>
                     <div class="textes">
@@ -18,7 +18,7 @@ include_once('php/header.php');
             </div>
 
             <div class="content-people">
-                <img src="img/Philippe.jpeg" alt="">
+                <img src="../img/Philippe.jpg" alt="">
                 <div class="content-text">
                     <div class="arrow-content"><i class="fas fa-angle-up"></i></div>
                     <div class="textes">
@@ -30,7 +30,7 @@ include_once('php/header.php');
             </div>
 
             <div class="content-people">
-                <img src="img/Julien.jpg" alt="">
+                <img src="../img/Julien.jpg" alt="">
                 <div class="content-text">
                     <div class="arrow-content"><i class="fas fa-angle-up"></i></div>
                     <div class="textes">
@@ -63,6 +63,7 @@ include_once('php/header.php');
             </div>
 
         </div>
+</div>
         <br>
         <br>
         <br>
@@ -120,7 +121,9 @@ include_once('php/header.php');
                         
             </div>
 
+            <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Sniglet" rel="stylesheet">
+
 <?php
-include_once('php/footer.php');
+require('php/footer.php');
 
 ?>
